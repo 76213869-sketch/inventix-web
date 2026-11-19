@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="logo-grad-top" x1="16" y1="4" x2="16" y2="15" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="logo-grad-left" x1="4" y1="12" x2="16" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="logo-grad-right" x1="28" y1="12" x2="16" y2="28" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60A5FA"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Top isometric face -->
+  <path d="M16 4L26 9.8L16 15.6L6 9.8L16 4Z" fill="url(#logo-grad-top)"/>
+
+  <!-- Left isometric face -->
+  <path d="M6 9.8V21.4L16 27.2V15.6L6 9.8Z" fill="url(#logo-grad-left)"/>
+
+  <!-- Right isometric face -->
+  <path d="M16 15.6V27.2L26 21.4V9.8L16 15.6Z" fill="url(#logo-grad-right)"/>
+
+  <!-- Inner dynamic accent (floating SaaS arrow/core) -->
+  <path d="M16 10L21 12.9V18.7L16 15.8V10Z" fill="#FFFFFF" opacity="0.85"/>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "name": "INVENTEX SaaS",
+  "short_name": "INVENTEX",
+  "description": "Sistema de Control de Inventarios y POS SaaS",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
